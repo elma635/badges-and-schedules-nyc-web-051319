@@ -2,7 +2,7 @@ def badge_maker(name)
  return "Hello, my name is #{name}."
 end
 
-def batch_badge_creator()
+def batch_badge_creator(name)
 #takes an array of names as an argument and returns an array of badge messages.
 #what badge msgs? if the badge_maker is doing that alrdy.
 end
