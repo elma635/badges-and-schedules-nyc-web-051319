@@ -5,7 +5,7 @@ end
 def batch_badge_creator(attendees)
   attendees.collect do | attendees |
     badge_maker(attendees)
-
+end
 
 #takes an array of names as an argument and returns an array of badge messages.
 #what badge msgs? if the badge_maker is doing that alrdy.
