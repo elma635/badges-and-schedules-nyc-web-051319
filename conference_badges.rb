@@ -26,7 +26,7 @@ def assign_rooms(room_assignments)
   #assign rm# to each person
 
 
-end
+
 
 
 #def printer(list_of_badges, room_assignments)
