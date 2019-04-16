@@ -7,3 +7,6 @@ def batch_badge_creator(attendees)
     badge_maker(attendees)
 end
 end
+
+def assign_rooms(speaker, room_number)
+ speaker.collect.each_with_index
