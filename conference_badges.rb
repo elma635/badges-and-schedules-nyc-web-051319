@@ -10,7 +10,7 @@ end
 
 def assign_rooms(attendees)
      attendees.collect.each_with_index do |name, index|#set for iteration, way to access each element in array
-   "Hello, #{name}! You'll be assigned room number #{index + 1}!"
+   "Hello, #{name}! You'll be assigned room #{index + 1}!"
 end
 end
 
