@@ -9,14 +9,16 @@ end
 end
 
 def assign_rooms(attendees)
- attendees.collect.each_with_index do |name, index|#set for iteration, way to access each element in array
+     attendees.collect.each_with_index do |name, index|#set for iteration, way to access each element in array
    "Hello, #{name}! You'll be assigned room number #{index + 1}!"
 end
 end
+
+#object your iterating over
 
 def printer (speaker)
   batch_badge_creator(speaker)
 
 end
 
-#assign_rooms(speaker,index)
+assign_rooms(speaker,index)
