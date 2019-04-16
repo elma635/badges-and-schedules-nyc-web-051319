@@ -9,4 +9,4 @@ end
 end
 
 def assign_rooms(speaker, room_number)
- speaker.collect.each_with_index
+ speaker.collect.each_with_index do |speaker, room_number|
