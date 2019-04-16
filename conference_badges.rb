@@ -8,7 +8,7 @@ def batch_badge_creator(attendees)
 end
 end
 
-def assign_rooms(speaker)
+def assign_rooms(speaker, index)
  speaker.collect.each_with_index do |speaker, index|
    "Hello, #{speaker}! You will be assigned room number #{index + 1}!"
 end
