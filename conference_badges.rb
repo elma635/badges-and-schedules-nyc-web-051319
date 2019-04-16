@@ -19,7 +19,4 @@ def printer (speaker)
 
 end
 
-assign_rooms(speaker,index)
-
-
-end
+#assign_rooms(speaker,index)
