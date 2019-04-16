@@ -20,5 +20,3 @@ def printer (speaker)
   batch_badge_creator(speaker)
 
 end
-
-assign_rooms(speaker,index)
