@@ -28,13 +28,11 @@ def assign_rooms(room_assignments)
 end
 
 
-def printer(list_of_badges, room_assignments)
+#def printer(list_of_badges, room_assignments)
 
-  puts ""
-
+  #puts
   #should puts list of badges and room_assignments
 
 #outputs result of batch_badge_creato
 #outputs result of assign_rooms
-end
-end
+#end
