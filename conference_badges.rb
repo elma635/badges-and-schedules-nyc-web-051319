@@ -16,7 +16,8 @@ end
 
 #object your iterating over
 
-def printer (speaker)
-  batch_badge_creator(speaker)
+def printer (attendees)
+  puts batch_badge_creator(attendees)
+  puts assign_rooms (attendees)
 
 end
