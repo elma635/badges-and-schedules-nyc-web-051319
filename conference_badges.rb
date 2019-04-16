@@ -3,8 +3,8 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  attendees.collect do | attendees |
-    badge_maker(attendees)
+  attendees.collect do | name |
+    badge_maker(name)
 end
 end
 
@@ -17,12 +17,7 @@ end
 #object your iterating over
 
 def printer (attendees)
-  puts batch_badge_creator(attendees)
-  puts assign_rooms(attendees)
+  batch_badge_creator(attendees).each {|string| puts string}
+   assign_rooms(attendees)
 end
 
-def food
-  "apple"
-return  "orange"
-
-end
