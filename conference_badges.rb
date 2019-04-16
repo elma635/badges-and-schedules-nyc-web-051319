@@ -9,7 +9,7 @@ end
 
 #takes an array of names as an argument and returns an array of badge messages.
 #what badge msgs? if the badge_maker is doing that alrdy.
-end
+
 
 def assign_rooms(room_assignments)
   room_assignments.each do | room_assignments |
